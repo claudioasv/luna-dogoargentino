@@ -1,0 +1,19 @@
+{
+  "name": "luna-dogoargentino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudioasv/luna-dogoargentino.git"
+  },
+  "author": "Claudio Sepúlveda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudioasv/luna-dogoargentino/issues"
+  },
+  "homepage": "https://github.com/claudioasv/luna-dogoargentino#readme"
+}
