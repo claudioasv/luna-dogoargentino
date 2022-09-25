@@ -36,7 +36,7 @@ async function fethData(urlApi) {
         `;
         content.innerHTML = view;
     } catch (error) {
-        alert('Hubo un error al cargar la API');
+        // alert('Hubo un error al cargar la API');
         console.log(error);
     }
 })();

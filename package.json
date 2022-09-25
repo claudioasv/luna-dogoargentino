@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/claudioasv/luna-dogoargentino/issues"
   },
-  "homepage": "https://github.com/claudioasv/luna-dogoargentino#readme"
+  "homepage": "https://github.com/claudioasv/luna-dogoargentino#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
