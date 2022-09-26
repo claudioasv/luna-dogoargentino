@@ -1,11 +1,11 @@
-const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC_ntDY8t8158ynwX-YVPfhA&part=snippet%2Cid&order=date&maxResults=9';
+// const API = 'https://instagram28.p.rapidapi.com/medias?user_id=48611850082&batch_size=9';
 const content = null || document.getElementById("content");
 const options = {
-    method: 'GET',
-    headers: {
-        'X-RapidAPI-Key': '4603ef4a49mshe6bad1e8d8a1dcep1ae0cejsna25e36e2436e',
-        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-    }
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '4603ef4a49mshe6bad1e8d8a1dcep1ae0cejsna25e36e2436e',
+		'X-RapidAPI-Host': 'instagram28.p.rapidapi.com'
+	}
 };
 
 async function fethData(urlApi) {
