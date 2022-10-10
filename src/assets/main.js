@@ -1,8 +1,8 @@
 // const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC_ntDY8t8158ynwX-YVPfhA&part=snippet%2Cid&order=date&maxResults=9';
 // const API = 'https://dog.ceo/api/breeds/image/random';
 // const API = 'https://api.escuelajs.co/api/v1/products';
-// const API = 'https://photoslibrary.googleapis.com/v1/albums/AMQ41fHxrlTIRgy2GnTefhSiWHOSl3wHs_KetUQqpUMHGiPzv0n1-SWQOfQhMPTOYkZ1jeqZTjiR';
-const API = 'https://photoslibrary.googleapis.com/v1/albums';
+const API = 'https://photoslibrary.googleapis.com/v1/albums/AMQ41fHxrlTIRgy2GnTefhSiWHOSl3wHs_KetUQqpUMHGiPzv0n1-SWQOfQhMPTOYkZ1jeqZTjiR';
+// const API = 'https://photoslibrary.googleapis.com/v1/albums';
 const content = null || document.getElementById("content");
 const options = {
     method: 'GET',

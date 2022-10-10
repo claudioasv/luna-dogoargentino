@@ -25,7 +25,7 @@
     <meta name="twitter:creator" content="@lunadogoarg" />
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
-    <!-- <meta name="google-signin-client_id" content="913686333598-ra765psj2vg68i0tn6tu055mb6u5a7rj.apps.googleusercontent.com"> -->
+    <!-- <meta name="google-signin-client_id" content="1077263841840-tnvh1rn4f1t8vbrpvp960r71opl2uibo.apps.googleusercontent.com"> -->
 
 </head>
 
@@ -183,12 +183,16 @@
     <div class="bg-white">
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Ultimos videos de Youtube</h2>
+
+            <!-- BOTON DE LOGIN DE GOOGLE -->
             <div id="g_id_onload"
-                data-client_id="913686333598-ra765psj2vg68i0tn6tu055mb6u5a7rj.apps.googleusercontent.com">
+                data-client_id="1077263841840-tnvh1rn4f1t8vbrpvp960r71opl2uibo.apps.googleusercontent.com">
             </div>
             <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline"
                 data-text="sign_in_with" data-shape="rectangular" data-logo_alignment="left">
             </div>
+            <!-- BOTON DE LOGIN DE GOOGLE -->
+            
             <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" id="content">
             </div>
         </div>
@@ -255,9 +259,8 @@
 
         window.onload = function () {
             google.accounts.id.initialize({
-                client_id: '913686333598-ra765psj2vg68i0tn6tu055mb6u5a7rj.apps.googleusercontent.com',
-                // apiKey: 'AIzaSyDQQ65hh4AE3z1KAICslfwK6tNQ4IYlpro',
-                callback: 'handleCredentialResponse',
+                client_id: '1077263841840-tnvh1rn4f1t8vbrpvp960r71opl2uibo.apps.googleusercontent.com',
+                callback: handleCredentialResponse,
             });
             google.accounts.id.prompt();
         }
