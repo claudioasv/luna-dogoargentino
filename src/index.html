@@ -23,6 +23,8 @@
     <meta name="twitter:image" content="./img/luna_portada2.jpg" />
     <meta name="twitter:site" content="@lunadogoarg" />
     <meta name="twitter:creator" content="@lunadogoarg" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
 </head>
 
 <body>
@@ -176,14 +178,21 @@
     <!-- SECTION CONTENT/IMAGE -->
 
     <!-- SECTION YOUTUBE -->
-    <!-- <div class="bg-white">
+    <div class="bg-white">
         <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Ultimos videos de Youtube</h2>
+            <div id="g_id_onload"
+                data-client_id="1077263841840-tnvh1rn4f1t8vbrpvp960r71opl2uibo.apps.googleusercontent.com"
+                >
+            </div>
+            <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline"
+                data-text="sign_in_with" data-shape="rectangular" data-logo_alignment="left">
+            </div>
             <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" id="content">
             </div>
         </div>
-    </div> -->
-    <!-- <div class="bg-gray-50">
+    </div>
+    <div class="bg-gray-50">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 <span class="block">Contact</span>
@@ -218,7 +227,7 @@
                 </svg>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- SECTION YOUTUBE -->
     <footer class="text-center bg-gray-900 text-white">
         <div class="container px-6 pt-6">
@@ -241,6 +250,15 @@
             <a class="text-whitehite" href="https://github.com/claudioasv">Claudio Sepúlveda</a>
         </div>
     </footer>
+    <script>
+        window.onload = function () {
+          google.accounts.id.initialize({
+            client_id: '1077263841840-tnvh1rn4f1t8vbrpvp960r71opl2uibo.apps.googleusercontent.com',
+            callback: handleCredentialResponse
+          });
+          google.accounts.id.prompt();
+        }
+      </script>
 </body>
 
 </html>
